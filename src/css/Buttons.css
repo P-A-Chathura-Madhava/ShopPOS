@@ -1,0 +1,32 @@
+.button1{
+    -fx-background-color: #007d34;
+    -fx-text-fill: #ffffff;
+}
+.button1 :hover{
+    -fx-background-color: #64e18e;
+    -fx-text-fill: #000000;
+}
+.button2{
+    -fx-background-color: #2980b9;
+    -fx-text-fill: #ffffff;
+}
+.button2 :hover{
+    -fx-background-color: #66afec;
+    -fx-text-fill: #000000;
+}
+.button3{
+    -fx-background-color: #d35400;
+    -fx-text-fill: #ffffff;
+}
+.button3 :hover{
+    -fx-background-color: #ff8439;
+    -fx-text-fill: #000000;
+}
+.btnDelete{
+    -fx-background-color:  #c0392b;
+    -fx-text-fill: #ffffff;
+}
+.btnDelete :hover{
+    -fx-background-color: #f96b55;
+    -fx-text-fill: #000000;
+}
