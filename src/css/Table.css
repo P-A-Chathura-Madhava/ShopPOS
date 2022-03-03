@@ -1,0 +1,6 @@
+.table-data {
+    -fx-background-color: transparent;
+}
+.table-data .column-header-background .filler {
+    -fx-background-color:  #004d40;
+}

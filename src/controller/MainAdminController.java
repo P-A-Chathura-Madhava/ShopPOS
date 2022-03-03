@@ -21,8 +21,6 @@ import javafx.util.Duration;
 
 public class MainAdminController {
 
-    public JFXButton bt_ime;
-
     @FXML
     public AnchorPane slider;
 
@@ -167,32 +165,6 @@ public class MainAdminController {
 		}
 	}
 
-	public void onImeAction(ActionEvent actionEvent) {
-		AnchorPane pane = null;
-		try {
-			pane = FXMLLoader.load(getClass().getResource("/ui/Admin_ime.fxml"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		common_pane.getChildren().clear();
-		common_pane.getChildren().add(pane);
-
-		// bt_product.setStyle("-fx-background-color : #6e6e6e");
-		bt_ime.setDisable(true);
-		bt_product.setDisable(false);
-		bt_report.setDisable(false);
-		bt_popular.setDisable(false);
-		bt_chart.setDisable(false);
-		bt_cashier.setDisable(false);
-		bt_promotion.setDisable(false);
-		bt_category.setDisable(false);
-		bt_customer.setDisable(false);
-		bt_logout.setDisable(false);
-		bt_supplier.setDisable(false);
-		bt_card.setDisable(false);
-	}
-
 	@FXML
 	void onCashierAction(ActionEvent event) {
 
@@ -218,7 +190,6 @@ public class MainAdminController {
 		bt_logout.setDisable(false);
 		bt_supplier.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
 	}
 	
 	@FXML
@@ -245,7 +216,6 @@ public class MainAdminController {
 		bt_logout.setDisable(false);
 		bt_supplier.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
 
 		uiSize = false;
 	}
@@ -275,7 +245,6 @@ public class MainAdminController {
 		bt_logout.setDisable(false);
 		bt_supplier.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
 	}
 	
 	@FXML
@@ -303,7 +272,6 @@ public class MainAdminController {
 		bt_logout.setDisable(false);
 		bt_supplier.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
 	}
 	
 	@FXML
@@ -331,7 +299,6 @@ public class MainAdminController {
 		bt_logout.setDisable(false);
 		bt_supplier.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
 		
 	}
 	
@@ -360,7 +327,6 @@ public class MainAdminController {
 		bt_category.setDisable(false);
 		bt_logout.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
     }
 	
 	@FXML
@@ -388,7 +354,6 @@ public class MainAdminController {
 		bt_category.setDisable(false);
 		bt_logout.setDisable(false);
 		bt_card.setDisable(false);
-		bt_ime.setDisable(false);
 	}
 
 	
@@ -418,7 +383,6 @@ public class MainAdminController {
 			bt_category.setDisable(false);
 			bt_logout.setDisable(false);
 			bt_popular.setDisable(false);
-		   	bt_ime.setDisable(false);
 	    }
 	   
 		@FXML
@@ -446,7 +410,6 @@ public class MainAdminController {
 			bt_category.setDisable(false);
 			bt_logout.setDisable(false);
 			bt_popular.setDisable(false);
-			bt_ime.setDisable(false);
 		}
 		
 
@@ -475,7 +438,6 @@ public class MainAdminController {
 			bt_category.setDisable(false);
 			bt_logout.setDisable(false);
 			bt_popular.setDisable(false);
-			bt_ime.setDisable(false);
 
 		}
 		

@@ -2,14 +2,13 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1304.0" style="-fx-background-color: #ffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainAdminController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1304.0" style="-fx-background-color: #00251a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainAdminController">
    <children>
-      <AnchorPane fx:id="common_pane" prefHeight="660.0" prefWidth="1304.0" style="-fx-background-color: #ffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
-      <JFXButton fx:id="bt_logout" buttonType="RAISED" layoutX="1219.0" layoutY="25.0" onAction="#onLogoutAction" prefHeight="40.0" prefWidth="200.0" stylesheets="@../css/logOutButton.css" text="Log Out" textFill="WHITE" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane fx:id="common_pane" prefHeight="660.0" prefWidth="1304.0" style="-fx-background-color: #00251a;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <JFXButton fx:id="bt_logout" buttonType="RAISED" layoutX="1219.0" layoutY="25.0" onAction="#onLogoutAction" prefHeight="40.0" prefWidth="91.0" style="-fx-background-radius: 100; -fx-border-radius: 100;" stylesheets="@../css/logOutButton.css" text="Log Out" textFill="WHITE" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -17,14 +16,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <AnchorPane layoutX="103.0" layoutY="-6.0" prefHeight="65.0" prefWidth="298.0" style="-fx-background-color: #2262c6;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutX="103.0" layoutY="-6.0" prefHeight="65.0" prefWidth="69.0" style="-fx-background-color: transparent;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="59.0" layoutY="10.0" prefHeight="40.0" prefWidth="186.0" text="Tesbious Tec" textFill="WHITE" AnchorPane.rightAnchor="20.0">
-               <font>
-                  <Font name="System Bold" size="28.0" />
-               </font>
-            </Label>
-            <JFXButton fx:id="btnMenu" layoutX="73.0" layoutY="4.0" onAction="#btnMenuOnAction" prefHeight="57.0" prefWidth="63.0" stylesheets="@../css/Styles.css" text="Menu" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <JFXButton fx:id="btnMenu" buttonType="RAISED" layoutX="73.0" layoutY="4.0" onAction="#btnMenuOnAction" prefHeight="64.0" prefWidth="297.0" styleClass="btn-menu" stylesheets="@../css/Buttons.css" text="Menu" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -34,9 +28,9 @@
             </JFXButton>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="slider" opacity="0.8" prefHeight="579.0" prefWidth="298.0" style="-fx-background-color: #2262c6;" styleClass="slide" stylesheets="@../css/slider.css" AnchorPane.bottomAnchor="40.0" AnchorPane.topAnchor="63.0">
+      <AnchorPane fx:id="slider" layoutY="120.0" opacity="0.8" prefHeight="432.0" prefWidth="317.0" style="-fx-background-color: transparent;" styleClass="slide" stylesheets="@../css/slider.css" AnchorPane.bottomAnchor="148.0" AnchorPane.topAnchor="120.0">
          <children>
-            <JFXButton fx:id="bt_product" layoutX="1.0" layoutY="63.0" onAction="#onProductAction" prefHeight="43.0" prefWidth="150.0" ripplerFill="#f2f2f2" stylesheets="@../css/Styles.css" text="Product Item" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_product" buttonType="RAISED" layoutX="1.0" layoutY="63.0" onAction="#onProductAction" prefHeight="43.0" prefWidth="284.0" ripplerFill="#f2f2f2" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Product Item" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="0.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -44,7 +38,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_ime" layoutX="1.0" layoutY="97.0" onAction="#onImeAction" prefHeight="43.0" prefWidth="150.0" ripplerFill="#f2f2f2" stylesheets="@../css/Styles.css" text="IME" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_category" buttonType="RAISED" layoutX="1.0" layoutY="43.0" onAction="#onCategoryAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Product Category" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -52,7 +46,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_category" layoutX="1.0" layoutY="140.0" onAction="#onCategoryAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Product Category" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_cashier" buttonType="RAISED" layoutX="1.0" layoutY="86.0" onAction="#onCashierAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Manage Cashier" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -60,7 +54,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_cashier" layoutX="1.0" layoutY="183.0" onAction="#onCashierAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Manage Cashier" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_customer" buttonType="RAISED" layoutX="1.0" layoutY="129.0" onAction="#onCustomerAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Manage Customer" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -68,7 +62,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_customer" layoutX="1.0" layoutY="226.0" onAction="#onCustomerAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Manage Customer" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_card" buttonType="RAISED" layoutX="1.0" layoutY="172.0" onAction="#onManageCardAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Manage Card" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -76,7 +70,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_card" layoutX="1.0" layoutY="269.0" onAction="#onManageCardAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Manage Card" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_promotion" buttonType="RAISED" layoutX="1.0" layoutY="215.0" onAction="#onPromotionAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Promotions" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -84,7 +78,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_promotion" layoutX="1.0" layoutY="312.0" onAction="#onPromotionAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Promotions" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_popular" buttonType="RAISED" layoutX="1.0" layoutY="258.0" onAction="#onPopularAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Popular Items" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -92,7 +86,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_popular" layoutX="1.0" layoutY="355.0" onAction="#onPopularAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Popular Items" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_supplier" buttonType="RAISED" layoutX="1.0" layoutY="301.0" onAction="#onSupplierAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Supplier" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -100,7 +94,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_supplier" layoutX="1.0" layoutY="398.0" onAction="#onSupplierAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Supplier" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_chart" buttonType="RAISED" layoutX="1.0" layoutY="344.0" onAction="#onChartAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="View Charts" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>
@@ -108,15 +102,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <JFXButton fx:id="bt_chart" layoutX="1.0" layoutY="441.0" onAction="#onChartAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="View Charts" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
-               <font>
-                  <Font name="Calibri Bold" size="14.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </JFXButton>
-            <JFXButton fx:id="bt_report" layoutX="1.0" layoutY="484.0" onAction="#onReportAction" prefHeight="43.0" prefWidth="150.0" stylesheets="@../css/Styles.css" text="Report" textFill="WHITE" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0">
+            <JFXButton fx:id="bt_report" buttonType="RAISED" layoutX="1.0" layoutY="387.0" onAction="#onReportAction" prefHeight="43.0" prefWidth="273.0" styleClass="btn-in-slider" stylesheets="@../css/Buttons.css" text="Report" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="40.0">
                <font>
                   <Font name="Calibri Bold" size="14.0" />
                </font>

@@ -30,3 +30,94 @@
     -fx-background-color: #f96b55;
     -fx-text-fill: #000000;
 }
+.btn-new{
+    -fx-background-color: #003300;
+    -fx-text-fill: #ffff;
+    -fx-border-radius: 0 100 0 0;
+    -fx-background-radius: 0 100 0 0;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-new :hover{
+    -fx-background-color: #4c8c4a;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 0 100 0 0;
+    -fx-background-radius: 0 100 0 0;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-add{
+    -fx-background-color: #000051;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 100 100 0 0;
+    -fx-background-radius: 100 100 0 0;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-add :hover{
+    -fx-background-color: #534bae;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100 100 0 0;
+    -fx-background-radius: 100 100 0 0;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-update{
+    -fx-background-color: #870000;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 100 0 0 0;
+    -fx-background-radius: 100 0 0 0;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-update :hover{
+    -fx-background-color: #f9683a;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100 0 0 0;
+    -fx-background-radius: 100 0 0 0;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-menu{
+    -fx-background-color: #00363a;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-menu:hover{
+    -fx-background-color: #428e92;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-in-slider{
+    -fx-background-color: #00363a;
+    -fx-border-color: #ffff;
+    -fx-border-width: 2px;
+    -fx-background-radius: 0 100 100 0;
+    -fx-border-radius: 0 100 100 0;
+}
+.btn-in-slider:hover{
+    -fx-background-color: #428e92;
+    -fx-text-fill: #000000;
+}
+.btn-in-slider :pressed{
+    -fx-text-fill: white;
+}
+.btn-in-slider :selected{
+    -fx-text-fill: white;
+}
+.btn-login{
+    -fx-background-color: #00363a;
+    -fx-border-color: #ffff;
+    -fx-border-width: 2px;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+}
+.btn-login:hover{
+    -fx-background-color: #428e92;
+}
