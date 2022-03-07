@@ -10,29 +10,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1320.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminCashierController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1320.0" style="-fx-background-color: #00251a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminCashierController">
    <children>
-      <JFXTextField fx:id="tf_id" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="31.0" layoutY="404.0" prefHeight="27.0" prefWidth="414.0" promptText="ID" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="404.0" />
-      <JFXTextField fx:id="tf_name" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="328.0" layoutY="404.0" prefHeight="27.0" prefWidth="414.0" promptText="Name" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="404.0" />
-      <JFXTextField fx:id="tf_age" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="328.0" layoutY="474.0" prefHeight="27.0" prefWidth="414.0" promptText="Age" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="453.0" />
-      <JFXRadioButton fx:id="rdo_male" layoutX="947.0" layoutY="408.0" selected="true" text="Male" AnchorPane.leftAnchor="947.0" AnchorPane.topAnchor="408.0">
+      <JFXTextField fx:id="tf_id" focusColor="#ffff" labelFloat="true" layoutX="31.0" layoutY="404.0" prefHeight="27.0" prefWidth="414.0" promptText="ID" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="404.0" />
+      <JFXTextField fx:id="tf_name" focusColor="#ffff" labelFloat="true" layoutX="328.0" layoutY="404.0" prefHeight="27.0" prefWidth="414.0" promptText="Name" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="404.0" />
+      <JFXTextField fx:id="tf_age" focusColor="#ffff" labelFloat="true" layoutX="328.0" layoutY="474.0" prefHeight="27.0" prefWidth="414.0" promptText="Age" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="453.0" />
+      <JFXRadioButton fx:id="rdo_male" layoutX="947.0" layoutY="408.0" selected="true" text="Male" textFill="WHITE" AnchorPane.leftAnchor="947.0" AnchorPane.topAnchor="408.0">
          <toggleGroup>
             <ToggleGroup fx:id="gender" />
          </toggleGroup>
       </JFXRadioButton>
-      <JFXRadioButton fx:id="rdo_female" layoutX="1035.0" layoutY="409.0" text="Female" AnchorPane.leftAnchor="1035.0" AnchorPane.topAnchor="409.0">
+      <JFXRadioButton fx:id="rdo_female" layoutX="1035.0" layoutY="409.0" text="Female" textFill="WHITE" AnchorPane.leftAnchor="1035.0" AnchorPane.topAnchor="409.0">
          <toggleGroup>
             <ToggleGroup fx:id="gender" />
          </toggleGroup>
       </JFXRadioButton>
-      <JFXTextField fx:id="tf_addr" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="15.0" layoutY="451.0" prefHeight="27.0" prefWidth="414.0" promptText="Address" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="453.0" />
-      <JFXTextField fx:id="tf_phone" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="15.0" layoutY="501.0" prefHeight="27.0" prefWidth="414.0" promptText="Phone" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="503.0" />
-      <JFXTextField fx:id="tf_email" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="321.0" layoutY="533.0" prefHeight="27.0" prefWidth="414.0" promptText="E-mail" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="503.0" />
-      <JFXTextField fx:id="tf_password" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="321.0" layoutY="578.0" prefHeight="27.0" prefWidth="414.0" promptText="Password" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="550.0" />
-      <JFXTextField fx:id="tf_date_created" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="15.0" layoutY="551.0" prefHeight="27.0" prefWidth="414.0" promptText="Data Created" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="550.0" />
-      <Label layoutX="648.0" layoutY="408.0" text="Gender" AnchorPane.leftAnchor="873.0" AnchorPane.topAnchor="408.0" />
+      <JFXTextField fx:id="tf_addr" focusColor="#ffff" labelFloat="true" layoutX="15.0" layoutY="451.0" prefHeight="27.0" prefWidth="414.0" promptText="Address" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="453.0" />
+      <JFXTextField fx:id="tf_phone" focusColor="#ffff" labelFloat="true" layoutX="15.0" layoutY="501.0" prefHeight="27.0" prefWidth="414.0" promptText="Phone" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="503.0" />
+      <JFXTextField fx:id="tf_email" focusColor="#ffff" labelFloat="true" layoutX="321.0" layoutY="533.0" prefHeight="27.0" prefWidth="414.0" promptText="E-mail" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="503.0" />
+      <JFXTextField fx:id="tf_password" focusColor="#ffff" labelFloat="true" layoutX="321.0" layoutY="578.0" prefHeight="27.0" prefWidth="414.0" promptText="Password" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="550.0" />
+      <JFXTextField fx:id="tf_date_created" focusColor="#ffff" labelFloat="true" layoutX="15.0" layoutY="551.0" prefHeight="27.0" prefWidth="414.0" promptText="Data Created" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="550.0" />
+      <Label layoutX="648.0" layoutY="408.0" text="Gender" textFill="WHITE" AnchorPane.leftAnchor="873.0" AnchorPane.topAnchor="408.0" />
       <TableView fx:id="tb_cashier" layoutX="329.0" layoutY="55.0" prefHeight="328.0" prefWidth="954.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
-      <Label layoutX="34.0" prefHeight="48.0" prefWidth="238.0" text="Manage Cashier" textFill="#34495e" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="8.0">
+      <Label layoutX="34.0" prefHeight="48.0" prefWidth="238.0" text="Manage Cashier" textFill="WHITE" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="8.0">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>

@@ -8,7 +8,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1304.0" style="-fx-background-color: #00251a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainAdminController">
    <children>
       <AnchorPane fx:id="common_pane" prefHeight="660.0" prefWidth="1304.0" style="-fx-background-color: #00251a;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
-      <JFXButton fx:id="bt_logout" buttonType="RAISED" layoutX="1219.0" layoutY="25.0" onAction="#onLogoutAction" prefHeight="40.0" prefWidth="91.0" style="-fx-background-radius: 100; -fx-border-radius: 100;" stylesheets="@../css/logOutButton.css" text="Log Out" textFill="WHITE" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0">
+      <JFXButton fx:id="bt_logout" buttonType="RAISED" layoutX="1219.0" layoutY="25.0" onAction="#onLogoutAction" prefHeight="40.0" prefWidth="91.0" stylesheets="@../css/logOutButton.css" text="Log Out" textFill="WHITE" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

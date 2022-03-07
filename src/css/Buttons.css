@@ -121,3 +121,67 @@
 .btn-login:hover{
     -fx-background-color: #428e92;
 }
+.btn-search{
+    -fx-background-color: #003300;
+    -fx-text-fill: #ffff;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-search :hover{
+    -fx-background-color: #4c8c4a;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-report-01{
+    -fx-background-color: #000051;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-report-01 :hover{
+    -fx-background-color: #534bae;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-report-02{
+    -fx-background-color: #ac1900;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-report-02 :hover{
+    -fx-background-color: #ff833a;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-report-03{
+    -fx-background-color: #8e0000;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}
+.btn-report-03 :hover{
+    -fx-background-color: #ff5f52;
+    -fx-text-fill: #000000;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-border-color: #7f8c8d;
+    -fx-border-width: 2px;
+}

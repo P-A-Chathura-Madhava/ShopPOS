@@ -8,39 +8,39 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1320.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminPromotionController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1320.0" style="-fx-background-color: #00251a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminPromotionController">
    <children>
-      <JFXTextField fx:id="tf_id" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="15.0" layoutY="485.0" prefHeight="30.0" prefWidth="414.0" promptText="ID" AnchorPane.leftAnchor="15.0">
+      <JFXTextField fx:id="tf_id" focusColor="#ffff" labelFloat="true" layoutX="15.0" layoutY="485.0" prefHeight="30.0" prefWidth="414.0" promptText="ID" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="15.0">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="tf_name" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="331.0" layoutY="485.0" prefHeight="30.0" prefWidth="414.0" promptText="Promotion Name" AnchorPane.leftAnchor="444.0">
+      <JFXTextField fx:id="tf_name" focusColor="#ffff" labelFloat="true" layoutX="331.0" layoutY="485.0" prefHeight="30.0" prefWidth="414.0" promptText="Promotion Name" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="444.0">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="tf_product_id" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="648.0" layoutY="485.0" onAction="#onProductIDSearch" prefHeight="30.0" prefWidth="414.0" promptText="Product ID" AnchorPane.leftAnchor="873.0" AnchorPane.rightAnchor="15.0">
+      <JFXTextField fx:id="tf_product_id" focusColor="#ffff" labelFloat="true" layoutX="648.0" layoutY="485.0" onAction="#onProductIDSearch" prefHeight="30.0" prefWidth="414.0" promptText="Product ID" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="873.0" AnchorPane.rightAnchor="15.0">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="tf_percentage" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="331.0" layoutY="548.0" prefHeight="30.0" prefWidth="414.0" promptText="Percentage" AnchorPane.leftAnchor="444.0">
+      <JFXTextField fx:id="tf_percentage" focusColor="#ffff" labelFloat="true" layoutX="331.0" layoutY="548.0" prefHeight="30.0" prefWidth="414.0" promptText="Percentage" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="444.0">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="tf_product_name" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" labelFloat="true" layoutX="15.0" layoutY="548.0" prefHeight="30.0" prefWidth="414.0" promptText="Product Name" AnchorPane.leftAnchor="15.0">
+      <JFXTextField fx:id="tf_product_name" focusColor="#ffff" labelFloat="true" layoutX="15.0" layoutY="548.0" prefHeight="30.0" prefWidth="414.0" promptText="Product Name" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff" AnchorPane.leftAnchor="15.0">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="tf_buy" alignment="BOTTOM_RIGHT" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" layoutX="907.0" layoutY="561.0" prefColumnCount="10" prefHeight="30.0" prefWidth="121.0" promptText="0">
+      <JFXTextField fx:id="tf_buy" alignment="BOTTOM_RIGHT" focusColor="#ffff" layoutX="907.0" layoutY="561.0" prefColumnCount="10" prefHeight="30.0" prefWidth="121.0" promptText="0" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="tf_get" alignment="BOTTOM_RIGHT" focusColor="#ffff" unFocusColor="#ffff" style="-fx-fill: #ffff; -fx-text-fill: #ffff" layoutX="1088.0" layoutY="561.0" prefColumnCount="10" prefHeight="30.0" prefWidth="121.0" promptText="0">
+      <JFXTextField fx:id="tf_get" alignment="BOTTOM_RIGHT" focusColor="#ffff" layoutX="1088.0" layoutY="561.0" prefColumnCount="10" prefHeight="30.0" prefWidth="121.0" promptText="0" style="-fx-fill: #ffff; -fx-text-fill: #ffff" unFocusColor="#ffff">
          <font>
             <Font size="14.0" />
          </font>
@@ -65,7 +65,7 @@
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
          </columnResizePolicy>
       </TableView>
-      <Label layoutX="34.0" prefHeight="48.0" prefWidth="292.0" text="Manage Promotion" textFill="#34495e" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="8.0">
+      <Label layoutX="34.0" prefHeight="48.0" prefWidth="292.0" text="Manage Promotion" textFill="WHITE" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="8.0">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
